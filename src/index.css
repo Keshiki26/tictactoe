@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+}
+
+.whole {
+	min-height: 100vh;
+}
+.main-cont {
+	height: 100%;
+}
+
+.block {
+	padding: 10px;
+	border: 1px black solid;
+	cursor: pointer;
+}
+.block:hover {
+	background-color: rgb(255, 230, 245);
+}
+/* Border Correction */
+.middleOne {
+	border-top: none;
+}
+.middleThree {
+	border-bottom: none;
+}
+.edgeOne {
+	border-left: none;
+	border-top: none;
+}
+.edgeTwo {
+	border-right: none;
+	border-top: none;
+}
+.edgeThree {
+	border-left: none;
+}
+.edgeFour {
+	border-right: none;
+}
+.edgeFive {
+	border-bottom: none;
+	border-left: none;
+}
+.edgeSix {
+	border-bottom: none;
+	border-right: none;
+}
